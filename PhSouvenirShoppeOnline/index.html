@@ -1,0 +1,85 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+	<head>
+		<script type="text/javascript" src="extras/jquery.min.1.7.js"></script>
+		<script type="text/javascript" src="extras/modernizr.2.5.3.min.js"></script>
+		<script type="text/javascript" src="lib/turn.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	
+	<body>
+		<nav>
+			<ul>
+				<li class="left">
+					<a href="#home"> PH Souvenir Shoppe </a>
+				</li>
+				<li class="right">
+					<a href="#about"> About Us </a>
+				</li>
+				<li class="right">
+					<a href="#contact"> Contact Us </a>
+				</li>
+				<li class="right">
+					<a href="#products"> Products </a>
+				</li>
+				
+			</ul>
+		</nav>
+		<div id="home" class="tab">
+			<h1>PH Souvenir Shoppe</h1>
+		</div>
+		<div id="products" class="tab">
+			<h2>
+				Products
+			</h2>
+			<p>
+				
+			</p>
+			<div class="flipbook">
+				<div class="p1"><p>content A</p></div>
+				<div><p>content B</p></div>
+				<div>
+					<h3>content C</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies, mauris nec lobortis convallis, nulla quam sollicitudin nisi, non dignissim ligula nibh mattis nibh. Aenean mollis mattis nibh, id accumsan velit. Aliquam sed gravida est. Pellentesque vitae lobortis purus. Fusce sed sapien vestibulum massa fringilla ultricies. Sed tincidunt ligula et lobortis lobortis. Duis porta tristique elit id bibendum. Aliquam quis enim condimentum, varius magna nec, maximus libero.
+					</p>
+				</div>
+				<div><p>content D</p></div>
+				<div><p>content E</p></div>
+				<div><p>content F</p></div>
+
+				<div>
+					<h3>content G</h3>
+					<img src="pages/6.jpg" alt="baby stuff" height="200px" width="200px">
+
+				</div>
+				<div><p>content H</p></div>
+				<div><p>content I</p></div>
+
+			</div>
+		</div>
+		<div id="about" class="tab">
+			<h2>
+				About Us
+			</h2>
+			<p>
+				we can be friends
+			</p>
+		</div>
+		<div id="contact" class="tab">
+			<h4>
+				Contact Us!
+			</h4>
+			<a href="https://www.facebook.com/PHsouvenirshop/">fb</a>
+		</div>
+		<script type="text/javascript">
+			$('.flipbook').turn();
+		</script>
+
+	</body>
+</html>
